@@ -1,1 +1,9 @@
-t5yrutyeriu
+Full-Stack Game
+
+enemies: list = [Enemy1, Enemy2, Enemy3...]
+
+Enemy:
+ - name:
+ - health: int
+ - defense:
+ - attack:

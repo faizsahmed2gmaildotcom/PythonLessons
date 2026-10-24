@@ -9,8 +9,14 @@ dict = {
     ...
 }
 
-ACCESS
+ACCESS (same as a list!)
 dict[key] = value
+
+ADDING
+dict[new_key] = value
+
+REMOVING (same as a list!)
+dict.pop(key)
 """
 
 name = "name"
@@ -25,6 +31,11 @@ enemy_dict = {
 
 # Changing dict values
 enemy_dict["attack"] = 5000
+# Adding things to dicts (same as changing values!)
+enemy_dict["speed"] = 10
+# Removing things from dicts
+enemy_dict.pop("attack")
+
 print(enemy_dict)
 
 # This is unreadable! What's all this without a dictionary?

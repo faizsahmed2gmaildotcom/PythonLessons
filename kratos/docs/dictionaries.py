@@ -20,9 +20,14 @@ enemy_dict = {
     "health": 1,
     "defense": 2,
     "attack": 100,
-    "Description": "This enemy is a glass canon -- high attack, low survivability."
+    "description": "This enemy is a glass canon -- high attack, low survivability."
 }
 
+# Changing dict values
+enemy_dict["attack"] = 5000
+print(enemy_dict)
+
+# This is unreadable! What's all this without a dictionary?
 enemy_list = [
     "America",
     1,
@@ -30,6 +35,14 @@ enemy_list = [
     100,
     "This enemy is a glass canon -- high attack, low survivability."
 ]
+enemy_dict_as_list = {
+    0: "America",
+    1: 1,
+    2: 2,
+    3: 100,
+    4: "This enemy is a glass canon -- high attack, low survivability."
+}
 
-
-print(enemy_dict[name])
+# Changing list values
+enemy_list[3] = 200
+print(enemy_list)

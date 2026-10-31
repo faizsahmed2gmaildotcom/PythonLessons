@@ -6,21 +6,18 @@ enemy_dict = {
     "track_progress": 0
 }
 
-
-if enemy_dict["speed"]== "low":
-    enemy_dict["track_progress"]=enemy_dict["track_progress"]+3
-    enemy_dict["grid position"]=enemy_dict["grid position"]+2
-elif enemy_dict["speed"]=="medium":
-    enemy_dict["track_progress"]=enemy_dict["track_progress"]+10
+if enemy_dict["speed"] == "low":
+    enemy_dict["track_progress"] = enemy_dict["track_progress"] + 3
+    enemy_dict["grid position"] = enemy_dict["grid position"] - 1
+elif enemy_dict["speed"] == "medium":
+    enemy_dict["track_progress"] = enemy_dict["track_progress"] + 10
 else:
-    enemy_dict["track_progress"]=enemy_dict["track_progress"]+30
-    enemy_dict["grid position"]=enemy_dict["grid position"]-1
-if enemy_dict["grid position"]==0:
-    enemy_dict["grid position"]=1
+    enemy_dict["track_progress"] = enemy_dict["track_progress"] + 30
+    enemy_dict["grid position"] = enemy_dict["grid position"] + 2
+if enemy_dict["grid position"] == 0:
+    enemy_dict["grid position"] = 1
 print(enemy_dict)
 
-# Increase track progress by a little if speed is low
 
-# Increase track progress by a normal amount if speed is medium
-
-# Increase track progress by a lot if speed is high
+# Parse enemy_dict into a full sentence:
+# Bob is travelling at high speed and is in the Ferrari F1 Team. He's starting in Grid Position 1, and has currently progressed along the track by 30 units.

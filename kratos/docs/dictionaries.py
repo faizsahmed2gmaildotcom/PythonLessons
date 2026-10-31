@@ -46,6 +46,8 @@ enemy_list = [
     100,
     "This enemy is a glass canon -- high attack, low survivability."
 ]
+
+# This is far better:
 enemy_dict_as_list = {
     0: "America",
     1: 1,

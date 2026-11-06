@@ -27,7 +27,6 @@ print(enemy_dict["name"] + " is travelling at " + enemy_dict["speed"] + " speed 
     "f1 team"].title() + " F1 Team. He's starting in Grid Position " + str(enemy_dict["grid position"]) + ", and has progressed along the track by " + str(
     enemy_dict["track_progress"]) + " units.")
 
-
 # A Python dictionary can be used to model an actual dictionary. However, to avoid confusion, let’s call it a glossary.
 
 # Think of five programming words you’ve learned about in the previous chapters. Use these words as the keys in your glossary,
@@ -39,13 +38,13 @@ print(enemy_dict["name"] + " is travelling at " + enemy_dict["speed"] + " speed 
 # newline character (\n) to insert a blank line between each word-meaning
 # pair in your output.
 
-Coding_dic={
+Coding_dic = {
     "tuples": "immutable and static list",
     "lists": "mutable order of things",
-    "str":"text",
+    "str": "text",
     "list slicing": "taking things out of a list",
-    "int":"integer"
+    "int": "integer"
 }
 
-print("tuples: "+(Coding_dic["tuples"]))
-print("tuples:\n     "+(Coding_dic["tuples"]))
+print("tuples: " + (Coding_dic["tuples"]))
+print("tuples:\n     " + (Coding_dic["tuples"]))

@@ -38,3 +38,14 @@ print(enemy_dict["name"] + " is travelling at " + enemy_dict["speed"] + " speed 
 # on one line and then print its meaning indented on a second line. Use the
 # newline character (\n) to insert a blank line between each word-meaning
 # pair in your output.
+
+Coding_dic={
+    "tuples": "immutable and static list",
+    "lists": "mutable order of things",
+    "str":"text",
+    "list slicing": "taking things out of a list",
+    "int":"integer"
+}
+
+print("tuples: "+(Coding_dic["tuples"]))
+print("tuples:\n     "+(Coding_dic["tuples"]))
